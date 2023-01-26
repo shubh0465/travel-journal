@@ -11,4 +11,50 @@ body{
   color: #ffffff;
   background: #F55A5A;
   gap: 7px;
+  font-weight: 400;
+}
+.main-container{
+  padding: 20px 40px;
+}
+.card-container{
+  margin: 18px 0;
+  gap: 19px;
+  display: flex;
+}
+.card-container img{
+  border-radius: 5px;
+  width: 126px;
+  height: 168px;
+}
+.card-container h1{
+  font-size: 25px;
+}
+.location-container{
+  display: flex;
+  gap: 20px;
+  font-size: 11px;
+}
+.location-container div{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.location-container div img{
+  width: 10px;
+  height: 20px;
+}
+.location-container div a{
+  color: #918E9B;
+}
+.date-container{
+  display: flex;
+  gap: 5px;
+}
+.date-container h5{
+  margin: 0;
+}
+.description{
+  color: #2B283A;
+  font-size: 11px;
+  font-weight: 400;
 }
